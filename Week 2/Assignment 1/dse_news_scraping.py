@@ -22,4 +22,7 @@ def dse_news_scraping(year):
             f.write(f"{i}, {t}, {nt}, {n}, {p}")
             f.write("\n")
 
-dse_news_scraping(2020)
+year = [2020, 2021, 2022]
+
+for i in year:
+    dse_news_scraping(i)
